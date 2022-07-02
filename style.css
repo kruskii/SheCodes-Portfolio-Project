@@ -100,6 +100,31 @@ h2 {
   opacity: 70%;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-description {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.about-section p {
+  font-size: 18px;
+  opacity: 70%;
+  line-height: 30px;
+}
+
+img {
+  border-radius: 20px;
+  width: 350px;
+  height: 520px;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 60px;
@@ -129,5 +154,19 @@ h2 {
 
   h2 {
     font-size: 35px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 160px 20px;
+  }
+
+  .about-description {
+    font-size: 17px;
+  }
+
+  img {
+    width: 350px;
+    height: 500px;
   }
 }
