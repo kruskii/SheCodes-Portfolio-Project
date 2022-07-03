@@ -134,6 +134,7 @@ h2 {
 .inquiry-container {
   background: var(--primary-color);
   border-radius: 20px;
+  margin: 80px 0;
 }
 
 .inquiry-container h3 {
@@ -143,11 +144,9 @@ h2 {
 .inquiry-container p {
   font-family: var(--default-font-family);
   font-size: 24px;
+  opacity: 80%;
+  color: black;
 }
-
-/* .fa-icon {
-  color: var(--primary-color);
-} */
 
 .wrap {
   padding: 30px;
