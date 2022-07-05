@@ -27,6 +27,25 @@ h2 {
   line-height: 85px;
 }
 
+.nav-bar {
+  background-color: var(--branding-color);
+  font-family: var(--default-font-family);
+}
+
+.nav-bar a {
+  color: white;
+}
+
+.nav-bar a:hover {
+  border-bottom: 2px solid var(--primary-color);
+  color: white;
+}
+
+.navbar-toggle,
+.navbar-toggler-icon {
+  color: white;
+}
+
 .hero {
   text-align: center;
   background-color: var(--primary-color);
