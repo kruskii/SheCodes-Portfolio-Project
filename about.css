@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 50px;
+}
+
+.about-header,
+.work-main-header {
+  font-size: 50px;
+  margin: 80px;
+  text-transform: uppercase;
+}
+
+.about-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container .about-skills .skill-icons {
+  max-width: 500px;
+
+  margin: 0 auto;
+}
+
+.about-container .about-intro {
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%), 0px 0px 10px rgb(0 0 0 / 15%);
+  margin-right: 25px;
+}
+
+.about-photo img {
+  width: 300px;
+  border-radius: 100%;
+}
+
+.about-content {
+  max-width: 350px;
+  margin-top: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.about-skills {
+  margin-left: 50px;
+}
+
+.skills-header h4 {
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+.skills-icons {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.skill-icon {
+  margin: 0 0 35px 15px;
+  width: 65px;
+  filter: grayscale(100%);
+}
+
+.skill-icon:hover {
+  filter: none;
+}
