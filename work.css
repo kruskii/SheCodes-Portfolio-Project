@@ -1,0 +1,14 @@
+.work-container {
+  border: 1px solid grey;
+  width: 350px;
+  height: 350px;
+  margin: 80px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.work-image img {
+  max-width: 100%;
+}

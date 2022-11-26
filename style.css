@@ -53,7 +53,7 @@ h2 {
 }
 
 .hero-image {
-  background-image: url(/images/hero-image4.jpg);
+  background-image: url(/images/hero-image6.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -62,7 +62,7 @@ h2 {
 
 .hero-text {
   padding-top: 100px;
-  color: #97d8c4;
+  color: #da3fbe;
 }
 
 .hero p {
@@ -74,7 +74,7 @@ h2 {
 
 .hero h1 {
   font-size: 96px;
-  color: #97d8c4;
+  color: #da3fbe;
 }
 
 .hero h2 {
@@ -82,7 +82,7 @@ h2 {
   font-size: 24px;
   font-weight: normal;
   line-height: 36px;
-  color: #97d8c4;
+  color: #da3fbe;
 }
 
 .featured {
